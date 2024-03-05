@@ -25,10 +25,11 @@ function toggleInfo() {
   }
 
   function redirectToInstagramDirect() {
-    window.location.href = "https://www.instagram.com/direct/t/102650134468655";
-    // window.location.href = "https://www.instagram.com/deverx.tattoo/";
+    // window.location.href = "https://www.instagram.com/direct/t/102650134468655";
+    window.open("https://www.instagram.com/direct/t/102650134468655", "_blank");
 }
 
 function redirectToTelegram() {
-    window.location.href = "https://t.me/deverxtattoo";
+    // window.location.href = "https://t.me/deverxtattoo";
+    window.open("https://t.me/deverxtattoo", "_blank");
 }
