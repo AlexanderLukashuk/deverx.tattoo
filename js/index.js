@@ -23,3 +23,12 @@ function toggleInfo() {
       button.textContent = 'Показать';
     }
   }
+
+  function redirectToInstagramDirect() {
+    window.location.href = "https://www.instagram.com/direct/t/102650134468655";
+    // window.location.href = "https://www.instagram.com/deverx.tattoo/";
+}
+
+function redirectToTelegram() {
+    window.location.href = "https://t.me/deverxtattoo";
+}
