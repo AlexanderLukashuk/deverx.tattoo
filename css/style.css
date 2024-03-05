@@ -28,7 +28,7 @@ a {
 header {
   background: #212121;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 h2 {
@@ -163,18 +163,18 @@ img {
 
 .home {
   margin-top: 50px;
-  place-items: center;
+  /* place-items: center; */
 }
 
 .home p {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
 }
 
 .home .left {
   width: 70%;
   margin-right: 50px;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .home .right img {
@@ -544,4 +544,22 @@ footer iframe {
   p {
     font-size: 12px;
   }
+}
+
+.home__img {
+  position: relative;
+  z-index: 10;
+}
+
+.home__shadow {
+  width: 26%;
+  height: 59%;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 8rem;
+  /* right: 1rem; */
+  /* left: 1rem; */
+  margin-left: 1rem;
+  border: 4px solid black;
+  z-index: 5;
 }

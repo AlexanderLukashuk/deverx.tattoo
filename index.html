@@ -33,9 +33,21 @@
 
       <div class="home flex">
         <div class="left">
-          <h2>Best Tattoos</h2>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button>Read More</button>
+          <!-- <h2>Best Tattoos</h2> -->
+          <h2>ИНФОРМАЦИЯ КЛИЕНТАМ</h2>
+          <!-- <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+          <p> ЕСЛИ ВЫ ХОТИТЕ ЗАПИСАТЬСЯ КО МНЕ НА СЕАНС, ПОЖАЛУЙСТА ПРОЧТИТЕ ВНИМАТЕЛЬНО ИНФОРМАЦИЮ НИЖЕ.</p>
+          <div class="additional-info" style="display: none;">
+            <p>ДЛЯ НАЧАЛА</p>
+            <p>— Подробно опишите идею вашей татуировки и расположение на вашем теле.</p>
+            <p>-Отправьте мне изображения, РЕФЕРЕНСЫ, которые вы хотите использовать как пример. Это позволит мне правильно понять, что вы хотели бы видеть в итоге, и сделать дизайн, максимально близкий к вашему видению.</p>
+            <p>-Не забудьте прислать фотографию участка на вашем теле, где предполагается будущая татуировка.</p>
+            <p>-Учтите, что я не используем фотографии чужих татуировок в качестве образца для копирования. Каждый мой проект уникален и основан на фотографиях реальных предметов, а не чужих работ.</p>
+            <p>-Мне важно понимать, что я работаю в стиле который вы хотите воплотить и заинтересована в работе над вашим проектом, прежде чем мы сможем обсуждать свободные даты и брать депозит.</p>
+            <p>— Или приходите на консультацию.</p>
+          </div>
+          <!-- <button>Read More</button> -->
+          <button onclick="toggleInfo()">Показать больше</button>
           <div class="dots flex">
             <label></label>
             <label></label>
@@ -44,7 +56,9 @@
         </div>
         <div class="right">
           <div class="img">
-            <img src="image/h.png" alt="">
+            <!-- <img class="home__img" src="image/h.png" alt=""> -->
+            <img class="home__img" src="image/d1.jpeg" alt="">
+            <div class="home__shadow"></div>
           </div>
         </div>
       </div>
@@ -259,6 +273,8 @@
     </div>
   </footer>
   <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made by <i class="fa fa-heart"></i> Dot Studio </p>
+
+  <script src="js/index.js"></script>
 </body>
 
 </html>
