@@ -380,6 +380,7 @@ img {
 /*----------customer--------*/
 /*----------footer--------*/
 footer {
+  padding-bottom: 1%;
   margin-top: 100px;
   background: #212121;
   color: white;
