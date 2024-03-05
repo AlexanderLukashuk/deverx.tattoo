@@ -28,7 +28,7 @@ a {
 header {
   background: #212121;
   color: white;
-  /* height: 100vh; */
+  /* height: 85vh; */
 }
 
 h2 {
@@ -163,6 +163,7 @@ img {
 
 .home {
   margin-top: 50px;
+  /* margin-bottom: 10%; */
   /* place-items: center; */
 }
 
@@ -174,7 +175,7 @@ img {
 .home .left {
   width: 70%;
   margin-right: 50px;
-  /* margin-top: 10%; */
+  margin-top: 10%;
 }
 
 .home .right img {
@@ -549,14 +550,16 @@ footer iframe {
 .home__img {
   position: relative;
   z-index: 10;
+  max-width: 68%;
+  height: 57%;
 }
 
 .home__shadow {
-  width: 26%;
-  height: 59%;
+  width: 23%;
+  height: 45%;
   background-color: rgba(0, 0, 0, 0.25);
   position: absolute;
-  bottom: 8rem;
+  bottom: 11rem;
   /* right: 1rem; */
   /* left: 1rem; */
   margin-left: 1rem;
