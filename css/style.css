@@ -44,7 +44,7 @@ header .navbar {
   height: 10vh;
 }
 
-header a {
+/* header a {
   color: white;
   font-size: 14px;
 }
@@ -92,7 +92,7 @@ header .navbar span {
   color: white;
   font-size: 25px;
   display: none;
-}
+} */
 
 @media only screen and (max-width:768px) {
   header nav ul {
@@ -492,6 +492,26 @@ footer iframe {
   footer .grid,
   .customer .grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .home__shadow {
+    display: none;
+  }
+
+  .btns-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .home__btn-link {
+    padding: 0px 0px;
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+  }
+
+  .btn-show {
+    width: 100%;
   }
 }
 
