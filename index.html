@@ -17,8 +17,8 @@
         <div class="logo">
           <h2>Deverx Tattoo</h2>
         </div>
-
-        <nav>
+        
+        <!-- <nav>
           <ul id="menuitem">
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="index.html">ABOUT</a></li>
@@ -28,7 +28,7 @@
             <i class="fa fa-search"></i>
           </ul>
         </nav>
-        <span class="fa fa-bars" onclick="menutoggle()"></span>
+        <span class="fa fa-bars" onclick="menutoggle()"></span> -->
       </div>
 
       <div class="home flex">
@@ -47,10 +47,10 @@
             <p>— Или приходите на консультацию.</p>
           </div>
           <!-- <button>Read More</button> -->
-          <button onclick="toggleInfo()">Показать больше</button>
+          <button class="btn-show" onclick="toggleInfo()">Показать больше</button>
           <div class="btns-links">
-            <button onclick="redirectToInstagramDirect()">instagram запись</button>
-            <button onclick="redirectToTelegram()">telegram запись</button>
+            <button class="home__btn-link" onclick="redirectToInstagramDirect()">instagram запись</button>
+            <button class="home__btn-link" onclick="redirectToTelegram()">telegram запись</button>
           </div>
           <!-- <div class="dots flex">
             <label></label>
@@ -73,7 +73,7 @@
 
 
 
-  <script>
+  <!-- <script>
     var menuitem = document.getElementById("menuitem");
     menuitem.style.maxHeight = "0px";
 
@@ -89,7 +89,7 @@
       var header = document.querySelector("header");
       header.classList.toggle("sticky", window.scrollY > 0);
     })
-  </script>
+  </script> -->
 
 
   <section class="about">
@@ -182,7 +182,7 @@
   </section>
 
 
-  <section class="gallery">
+  <!-- <section class="gallery">
     <h2>Our Tattoo Gallery </h2>
     <div class="image">
       <div class="img img_item1">
@@ -204,7 +204,7 @@
         <img src="image/i6.jpeg">
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <section class="customer">
